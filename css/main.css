@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+h1 {
+    /* font-family: 'Times New Roman', Times, serif; */
+    background-color: #009999;
+}
+
+table {
+    margin: auto;
+    margin-top: 20px;
+}
+
+td {
+    font-size: 10px;
+    width: 25px;
+    height: 25px;
+    padding: 2px;
+    border: 1px solid #008080;
+}
+
+td:hover {
+    outline: #003333 2px solid;
+}
+
+.hide {
+    text-indent: -9999px
+        /* visibility: hidden; */
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>⚀ Mine Sweeper ⚀</title>
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body onload="init()">
+    <h1 >MINE SWEEPER! 😎</h1>
+
+    <div class="levels">
+        <button class="level" onclick="setDifficult(16 , 2)"> Beginner</button>
+        <button class="level" onclick="setDifficult(64 , 14)"> Medium</button>
+        <button class="level" onclick="setDifficult(144 , 32)"> Expert</button>
+    </div>
+    <button class="level" onclick="resetGame()"> RESET GAME</button>
+
+    <table  cellpadding="20" onclick="">
+        <tbody class="board"></tbody>
+    </table>
+
+    <script src="js/game.js"></script>
+    <script src="js/utils.js"></script>
+</body>
+
+</html>
