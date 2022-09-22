@@ -26,3 +26,5 @@ function getClassName(location) {
     var cellClass = 'cell-' + location.i + '-' + location.j
     return cellClass
 }
+
+
